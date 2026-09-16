@@ -1,0 +1,7 @@
+{
+  "name": "NIT Warangal - National Institute of Technology",
+  "description": "Premier Institute of National Importance established in 1959 in Warangal, Telangana. Academic departments, ECE semiconductor hub, 256-acre campus life, JoSAA admissions predictor, and Kakatiya heritage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

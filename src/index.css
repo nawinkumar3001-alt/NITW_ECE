@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --ink: #0a0600;
+    --stone: #140d04;
+    --paper: #f2e8d5;
+    --paper2: #e8d9bc;
+    --saffron: #c8560a;
+    --gold: #e8a020;
+    --rust: #8b3a0f;
+    --ember: #ff7a1a;
+    --line: rgba(232, 160, 32, 0.16);
+    --lineD: rgba(200, 86, 10, 0.2);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    background-color: #0a0600;
+    color: #f2e8d5;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-dev {
+  font-family: 'Noto Serif Devanagari', Georgia, serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Kakatiya star clip-path */
+.clip-tara {
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+/* Ornamental Kakatiya border pattern */
+.border-kakatiya {
+  border-image: repeating-linear-gradient(90deg, #c8560a 0, #c8560a 6px, transparent 6px, transparent 10px, #e8a020 10px, #e8a020 16px, transparent 16px, transparent 22px) 1;
+}
+
+/* Glow effects */
+.glow-gold {
+  box-shadow: 0 0 35px rgba(232, 160, 32, 0.25);
+}
+
+.text-glow {
+  text-shadow: 0 0 25px rgba(232, 160, 32, 0.45);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0600;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a1a0c;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c8560a;
+}
+
